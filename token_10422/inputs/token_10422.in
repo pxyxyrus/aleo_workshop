@@ -1,0 +1,12 @@
+// The program input for deploy_workshop/src/main.leo
+[mint]
+balance: u32 = 100u32;
+
+[transfer]
+receiver: address = aleo1yn6halw6astkc8jsl88sukelef3e8xrawugfjtx7kjcuuxdm6spsdtc249;
+amount: u32 = 10u32;
+input: Token = Token {
+  owner: aleo179eyttslzdl3facu67p3khfk40zjnfjsvk52saqapfydx5s4zqfqq4f0mc,
+  balance: 100u32,
+  _nonce: 6251278179684390740507613635740623164123302672374353204715962293581420003113group
+};
